@@ -99,7 +99,7 @@ header.mobile {
   align-content: space-around;
   justify-content: end;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .menus:nth-child(3) {
   grid-column: span 1;
@@ -108,7 +108,7 @@ header.mobile {
   align-content: space-around;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .menus:nth-child(4) {
   grid-column: span 1;
@@ -117,7 +117,7 @@ header.mobile {
   align-content: space-around;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .menus:nth-child(5) {
   grid-column: span 1;
@@ -126,7 +126,7 @@ header.mobile {
   align-content: space-around;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .menus:nth-child(6) {
   grid-column: span 4;
@@ -135,7 +135,7 @@ header.mobile {
   align-content: space-around;
   justify-content: end;
   align-items: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-weight: 700;
 }
 .menus {
