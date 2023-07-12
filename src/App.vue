@@ -1,7 +1,7 @@
 <template>
   <metainfo>
     <template v-slot:title="{ content }">{{
-      content ? `${content}` : `Rimba House`
+      content ? `${content}` : `Koontjie`
     }}</template>
   </metainfo>
   <router-view />
@@ -9,12 +9,16 @@
 
 <script>
 import HomeView from "./views/HomeView.vue";
+import AboutView from "./views/AboutView.vue";
+import WorkView from "./views/WorkView.vue";
 import { useMeta } from "vue-meta";
 
 export default {
   name: "App",
   components: {
     HomeView,
+    AboutView,
+    WorkView,
   },
 };
 </script>

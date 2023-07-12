@@ -75,6 +75,10 @@ export default {
   .wrapper-footer .footer a {
     font-size: 16px;
   }
+  .wrapper-footer .footer:nth-child(4) p {
+    font-weight: 700;
+    text-align: right;
+  }
 }
 
 @media (max-width: 992px) {
@@ -96,6 +100,30 @@ export default {
   }
   .wrapper-footer .footer:nth-child(4) p {
     text-align: left;
+  }
+  .wrapper-footer .footer p {
+    font-size: 18px;
+  }
+  .wrapper-footer .footer a {
+    font-size: 18px;
+  }
+  .wrapper-footer .footer:nth-child(4) p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper-footer .footer {
+    grid-column: span 8;
+  }
+  .wrapper-footer .footer p {
+    text-align: center;
+  }
+  .wrapper-footer .footer:nth-child(4) p {
+    text-align: center;
+  }
+  .wrapper-footer .footer:nth-child(3) {
+    margin-bottom: 20px;
   }
 }
 

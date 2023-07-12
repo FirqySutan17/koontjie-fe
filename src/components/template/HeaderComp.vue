@@ -4,13 +4,24 @@
       <div class="wrapper-menu">
         <div class="menus date-style">
           <span>{{ currentTime }}</span>
-
-          <img class="logos" src="@/assets/images/logo.png" alt="" />
+          <router-link to="/">
+            <img class="logos" src="@/assets/images/logo.png" alt="" />
+          </router-link>
         </div>
-        <div class="menus"><a href="#">WORKS OF COLLECTIVE</a></div>
-        <div class="menus"><a href="#">ABOUT</a></div>
-        <div class="menus"><a href="#">PORTFOLIO</a></div>
-        <div class="menus"><a href="#">CONTACT</a></div>
+        <div class="menus">
+          <router-link class="m-anchor" to="/work-of-collective"
+            >WORKS OF COLLECTIVE</router-link
+          >
+        </div>
+        <div class="menus">
+          <router-link class="m-anchor" to="/about">ABOUT</router-link>
+        </div>
+        <div class="menus">
+          <router-link class="m-anchor" to="/">PORTFOLIO</router-link>
+        </div>
+        <div class="menus">
+          <router-link class="m-anchor" to="/">CONTACT</router-link>
+        </div>
         <div class="menus">A MEMBER OF PINC GROUP OF COMPANIES</div>
       </div>
     </div>
@@ -20,8 +31,9 @@
     <nav class="nav-mobile">
       <div class="menus date-style">
         <span>{{ currentTime }}</span>
-
-        <img class="logos" src="@/assets/images/logo.png" alt="" />
+        <router-link to="/">
+          <img class="logos" src="@/assets/images/logo.png" alt="" />
+        </router-link>
       </div>
       <input type="checkbox" id="active-menu" />
       <label for="active-menu" class="menu-btn-nav">
@@ -30,16 +42,20 @@
       <div class="wrapper-menu">
         <ul>
           <li>
-            <a href="#">WORKS OF COLLECTIVE</a>
+            <router-link to="/work-of-collective" class="m-anchor"
+              >WORKS OF COLLECTIVE</router-link
+            >
           </li>
           <li>
-            <a href="#">ABOUT</a>
+            <router-link to="/about" class="m-anchor">ABOUT</router-link>
           </li>
           <li>
-            <a href="#">PORTFOLIO</a>
+            <router-link to="/" class="m-anchor" href="#"
+              >PORTFOLIO</router-link
+            >
           </li>
           <li>
-            <a href="#">CONTACT</a>
+            <router-link to="/" class="m-anchor" href="#">CONTACT</router-link>
           </li>
           <li>A MEMBER OF PINC GROUP OF COMPANIES</li>
         </ul>
@@ -49,7 +65,23 @@
 </template>
 
 <script>
+import $ from "jquery";
 import moment from "moment";
+
+$(document).ready(function () {
+  $("#active-menu").click(function () {
+    $("#active-menu").toggleClass("checked", true);
+  });
+  $(".m-anchor").click(function () {
+    $("#active-menu").prop("checked", false);
+  });
+  $(".m-anchor").click(function () {
+    /* remove class from prior active link*/
+    $(".activeLinkClass").removeClass("activeLinkClass");
+    /* "this" is current link clicked*/
+    $(this).addClass("activeLinkClass");
+  });
+});
 
 export default {
   name: "HeaderComp",
@@ -80,6 +112,10 @@ header.desktop {
 }
 header.mobile {
   display: none;
+}
+
+a.activeLinkClass {
+  color: #ff008c !important;
 }
 .wrapper-menu {
   display: grid;
@@ -167,6 +203,11 @@ header.mobile {
 .menus a:hover {
   color: #ff008c;
 }
+
+li:nth-child(5) {
+  font-weight: 500;
+}
+
 @media (max-width: 1620px) {
   .logos {
     width: 600px;
@@ -205,6 +246,10 @@ header.mobile {
     position: relative;
   }
   .header-tagline h1 {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .header-tagline-work h1 {
     font-size: 24px;
     line-height: 50px;
   }
@@ -288,7 +333,7 @@ header.mobile {
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
-    padding: 5px 30px;
+    padding: 5px 0px;
     color: #2c3e50;
     border-radius: 50px;
     background: #fff;
@@ -423,6 +468,9 @@ header.mobile {
   .logos {
     width: 100%;
     margin-top: 70px;
+  }
+  header {
+    padding: 0px 5px;
   }
 }
 </style>
