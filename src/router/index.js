@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, VueRouter } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import WorkView from "../views/WorkView.vue";
+import WorkDetailView from "../views/WorkDetailView.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/work-of-collective",
     name: "work",
     component: WorkView,
+  },
+  {
+    path: "/work-detail",
+    name: "work-detail",
+    component: WorkDetailView,
   },
 ];
 

@@ -83,10 +83,25 @@ export default {
 
 @media (max-width: 992px) {
   .wrapper-footer .footer p {
-    font-size: 14px;
+    font-size: 18px;
   }
   .wrapper-footer .footer a {
-    font-size: 14px;
+    font-size: 18px;
+  }
+  .wrapper-footer .footer {
+    grid-column: span 4;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .wrapper-footer .footer:nth-child(4) p {
+    font-weight: 700;
+    text-align: center;
+  }
+  ._box-work .hiring-box {
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    text-align: left;
   }
 }
 

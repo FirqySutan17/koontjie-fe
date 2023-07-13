@@ -122,7 +122,7 @@ a.activeLinkClass {
   grid-template-columns: repeat(15, 1fr);
   width: 100%;
   column-gap: 20px;
-  padding: 20px 20px 0px 20px;
+  padding: 20px 10px 0px 10px;
   margin-top: 70px;
 }
 .menus:nth-child(1) {
@@ -207,6 +207,9 @@ a.activeLinkClass {
 li:nth-child(5) {
   font-weight: 500;
 }
+.logos {
+  margin-left: 30px;
+}
 
 @media (max-width: 1620px) {
   .logos {
@@ -251,8 +254,9 @@ li:nth-child(5) {
   }
   .header-tagline-work h1 {
     font-size: 24px;
-    line-height: 50px;
+    line-height: 35px;
   }
+
   .menus.date-style span {
     position: absolute;
     bottom: 40px;
@@ -267,7 +271,7 @@ li:nth-child(5) {
     left: 0;
     height: 500px;
     width: 100%;
-    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
@@ -391,6 +395,11 @@ li:nth-child(5) {
     100% {
       filter: hue-rotate(360deg);
     }
+  }
+}
+@media (max-width: 992px) {
+  .header-tagline-work h1 {
+    line-height: 45px;
   }
 }
 @media (max-width: 600px) {

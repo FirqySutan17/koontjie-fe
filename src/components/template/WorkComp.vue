@@ -4,243 +4,243 @@
       <div class="box-work">
         <div class="work"><p>Our Work</p></div>
         <div class="work">
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Nudie Jeans</div>
               <div class="pro-item">2010</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">All Blues</div>
               <div class="pro-item">2020</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Majblomman</div>
               <div class="pro-item">2018</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">hyper island</div>
               <div class="pro-item">2022 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Tinted</div>
               <div class="pro-item">2022 - 2023</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Icebug</div>
               <div class="pro-item">2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Eton Shirts</div>
               <div class="pro-item">2019 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Emma S</div>
               <div class="pro-item">2021 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Beyond Medals</div>
               <div class="pro-item">2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Forsman & Bodenfors</div>
               <div class="pro-item">2013</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Sweet SKTBS®</div>
               <div class="pro-item">2022 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Globen Lighting</div>
               <div class="pro-item">2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Rosendal Garden Party</div>
               <div class="pro-item">2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Hunkydory</div>
               <div class="pro-item">2019 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Odd Molly</div>
               <div class="pro-item">2019 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Socksss</div>
               <div class="pro-item">2021 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Telia</div>
               <div class="pro-item">2020</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Nudie Jeans</div>
               <div class="pro-item">2010</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">All Blues</div>
               <div class="pro-item">2020</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Majblomman</div>
               <div class="pro-item">2018</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">hyper island</div>
               <div class="pro-item">2022 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Tinted</div>
               <div class="pro-item">2022 - 2023</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Icebug</div>
               <div class="pro-item">2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Eton Shirts</div>
               <div class="pro-item">2019 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Emma S</div>
               <div class="pro-item">2021 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Beyond Medals</div>
               <div class="pro-item">2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Forsman & Bodenfors</div>
               <div class="pro-item">2013</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Sweet SKTBS®</div>
               <div class="pro-item">2022 - 2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Globen Lighting</div>
               <div class="pro-item">2022</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Rosendal Garden Party</div>
               <div class="pro-item">2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Hunkydory</div>
               <div class="pro-item">2019 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Odd Molly</div>
               <div class="pro-item">2019 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box nonactive">
               <div class="pro-item">Socksss</div>
               <div class="pro-item">2021 - 2021</div>
             </div>
-          </a>
+          </router-link>
 
-          <a href="#">
+          <router-link to="/work-detail">
             <div class="pro-box">
               <div class="pro-item">Telia</div>
               <div class="pro-item">2020</div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="work">
           <div class="textris-box">
@@ -301,10 +301,12 @@
             <p>WE'RE HIRING!</p>
 
             <div class="jobs">
-              <a href="#"><p>WEB DEVELOPER</p></a>
-              <a href="#"><p>CREATIVE DEVELOPER / ANIMATOR</p></a>
-              <a href="#"><p>UX-DESIGNER</p></a>
-              <a href="#"><p>INTERNSHIPS</p></a>
+              <router-link to="/work-detail"><p>WEB DEVELOPER</p></router-link>
+              <router-link to="/work-detail"
+                ><p>CREATIVE DEVELOPER / ANIMATOR</p></router-link
+              >
+              <router-link to="/work-detail"><p>UX-DESIGNER</p></router-link>
+              <router-link to="/work-detail"><p>INTERNSHIPS</p></router-link>
             </div>
           </div>
         </div>
