@@ -20,6 +20,12 @@ export default {
     AboutView,
     WorkView,
   },
+  setup() {
+    useMeta({
+      title: "Koontjie",
+      htmlAttrs: { lang: "en", amp: true },
+    });
+  },
 };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper-header">
-    <img class="header-bg" src="@/assets/images/header-bg.png" alt="" />
+    <img class="header-bg" src="@/assets/images/work.jpg" alt="" />
     <div class="header-tagline-work">
       <h1>LUCU ADALAH KOONTJIE</h1>
     </div>

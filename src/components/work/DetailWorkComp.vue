@@ -7,7 +7,7 @@
         <div class="detail-title">WORK</div>
       </div>
       <div class="detail">
-        <div class="detail-input">EMMA S.</div>
+        <div class="detail-input">{{ portfolio.client_name }}</div>
         <div class="detail-input">2021 - ONGOING</div>
         <div class="detail-input">
           <div class="cat-work">
@@ -263,6 +263,8 @@ import "@egjs/vue3-flicking/dist/flicking.css";
 import "@egjs/flicking-plugins/dist/flicking-plugins.css";
 import "@egjs/vue3-flicking/dist/flicking-inline.css";
 
+import { getContent } from "@/api/koontjie";
+
 const plugins = [
   new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false }),
 ];
@@ -274,11 +276,32 @@ export default {
   data: function () {
     return {
       plugins,
+      portfolio: null,
+      media: process.env.VUE_APP_MEDIA_URL,
+      otherPortfolio: [],
     };
+  },
+  methods: {
+    async refreshPortfolioDetail() {
+      const getResponse = await getContent("portfolio/" + this.slug);
+      if (getResponse.status == 200) {
+        this.portfolio = getResponse.data.data.data;
+        this.portfolio.images.map((image) => {
+          this.imgs.push(this.media + image.image);
+        });
+        console.log(getResponse.data.data.data);
+      } else {
+        console.log(getResponse);
+      }
+    },
+  },
+  created() {
+    this.refreshPortfolioDetail();
   },
   name: "DetailWorkComp",
   props: {
     msg: String,
+    slug: String,
   },
 };
 </script>

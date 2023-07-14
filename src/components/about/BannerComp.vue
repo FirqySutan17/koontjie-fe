@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper-header">
-    <img class="header-bg" src="@/assets/images/header-bg.png" alt="" />
+    <img class="header-bg" src="@/assets/images/about-first.jpg" alt="" />
     <div class="header-tagline">
       <h1>KOLAB ADALAH KOONTJIE</h1>
     </div>

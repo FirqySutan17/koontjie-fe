@@ -3,34 +3,7 @@ import axios from "axios";
 export const getContent = async (endpoint) => {
   try {
     const response = await axios.get(process.env.VUE_APP_API_URL + endpoint);
-    return response;
-  } catch (error) {
-    if (!error.response) {
-      return { status: "No Server Response" };
-    } else {
-      return error.response;
-    }
-  }
-};
-
-export const getBlog = async (endpoint) => {
-  try {
-    const response = await axios.get(process.env.VUE_APP_BLOG_URL + endpoint);
-    return response;
-  } catch (error) {
-    if (!error.response) {
-      return { status: "No Server Response" };
-    } else {
-      return error.response;
-    }
-  }
-};
-
-export const getBlogDetail = async (endpoint) => {
-  try {
-    const response = await axios.get(
-      process.env.VUE_APP_BLOG_DETAIL_URL + endpoint
-    );
+    console.log(response);
     return response;
   } catch (error) {
     if (!error.response) {

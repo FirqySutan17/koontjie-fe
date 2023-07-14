@@ -4,243 +4,35 @@
       <div class="box-work">
         <div class="work"><p>Our Work</p></div>
         <div class="work">
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Nudie Jeans</div>
-              <div class="pro-item">2010</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">All Blues</div>
-              <div class="pro-item">2020</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Majblomman</div>
-              <div class="pro-item">2018</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">hyper island</div>
-              <div class="pro-item">2022 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Tinted</div>
-              <div class="pro-item">2022 - 2023</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Icebug</div>
-              <div class="pro-item">2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Eton Shirts</div>
-              <div class="pro-item">2019 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Emma S</div>
-              <div class="pro-item">2021 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Beyond Medals</div>
-              <div class="pro-item">2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Forsman & Bodenfors</div>
-              <div class="pro-item">2013</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Sweet SKTBS®</div>
-              <div class="pro-item">2022 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Globen Lighting</div>
-              <div class="pro-item">2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Rosendal Garden Party</div>
-              <div class="pro-item">2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Hunkydory</div>
-              <div class="pro-item">2019 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Odd Molly</div>
-              <div class="pro-item">2019 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Socksss</div>
-              <div class="pro-item">2021 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Telia</div>
-              <div class="pro-item">2020</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Nudie Jeans</div>
-              <div class="pro-item">2010</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">All Blues</div>
-              <div class="pro-item">2020</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Majblomman</div>
-              <div class="pro-item">2018</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">hyper island</div>
-              <div class="pro-item">2022 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Tinted</div>
-              <div class="pro-item">2022 - 2023</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Icebug</div>
-              <div class="pro-item">2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Eton Shirts</div>
-              <div class="pro-item">2019 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Emma S</div>
-              <div class="pro-item">2021 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Beyond Medals</div>
-              <div class="pro-item">2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Forsman & Bodenfors</div>
-              <div class="pro-item">2013</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Sweet SKTBS®</div>
-              <div class="pro-item">2022 - 2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Globen Lighting</div>
-              <div class="pro-item">2022</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Rosendal Garden Party</div>
-              <div class="pro-item">2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Hunkydory</div>
-              <div class="pro-item">2019 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Odd Molly</div>
-              <div class="pro-item">2019 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box nonactive">
-              <div class="pro-item">Socksss</div>
-              <div class="pro-item">2021 - 2021</div>
-            </div>
-          </router-link>
-
-          <router-link to="/work-detail">
-            <div class="pro-box">
-              <div class="pro-item">Telia</div>
-              <div class="pro-item">2020</div>
-            </div>
-          </router-link>
+          <div
+            class="work-item"
+            v-for="(portfolio, index) in portfolios"
+            :key="portfolio.id"
+          >
+            <router-link
+              :to="{
+                name: 'work-detail',
+                params: { slug: portfolio.slug },
+              }"
+            >
+              <div v-if="portfolio.end_year == null">
+                <div class="pro-box">
+                  <div class="pro-item">{{ portfolio.client_name }}</div>
+                  <div class="pro-item">
+                    {{ portfolio.start_year }}
+                  </div>
+                </div>
+              </div>
+              <div v-else>
+                <div class="pro-box nonactive">
+                  <div class="pro-item">{{ portfolio.client_name }}</div>
+                  <div class="pro-item">
+                    {{ portfolio.start_year }} - {{ portfolio.end_year }}
+                  </div>
+                </div>
+              </div>
+            </router-link>
+          </div>
         </div>
         <div class="work">
           <div class="textris-box">
@@ -301,12 +93,12 @@
             <p>WE'RE HIRING!</p>
 
             <div class="jobs">
-              <router-link to="/work-detail"><p>WEB DEVELOPER</p></router-link>
-              <router-link to="/work-detail"
+              <router-link to="/"><p>WEB DEVELOPER</p></router-link>
+              <router-link to="/"
                 ><p>CREATIVE DEVELOPER / ANIMATOR</p></router-link
               >
-              <router-link to="/work-detail"><p>UX-DESIGNER</p></router-link>
-              <router-link to="/work-detail"><p>INTERNSHIPS</p></router-link>
+              <router-link to="/"><p>UX-DESIGNER</p></router-link>
+              <router-link to="/"><p>INTERNSHIPS</p></router-link>
             </div>
           </div>
         </div>
@@ -317,6 +109,7 @@
 
 <script>
 import moment from "moment";
+import { getContent } from "@/api/koontjie";
 
 export default {
   name: "ContactComp",
@@ -327,14 +120,25 @@ export default {
     return {
       message: "Current Time:",
       currentTime: null,
+      portfolios: [],
     };
   },
   methods: {
+    async refreshPortfolio(url) {
+      const getResponse = await getContent(url);
+      if (getResponse.status == 200) {
+        this.portfolios = getResponse.data.data;
+        console.log(getResponse.data.data);
+      } else {
+        console.log(getResponse);
+      }
+    },
     updateCurrentTime() {
       this.currentTime = moment().format("MMMM YYYY");
     },
   },
   created() {
+    this.refreshPortfolio("portfolio");
     this.currentTime = moment().format("MMMM YYYY");
     setInterval(() => this.updateCurrentTime(), 1000);
   },
@@ -448,10 +252,11 @@ export default {
 }
 
 .hiring-box {
-  position: absolute;
+  position: relative;
   bottom: 0;
   text-align: left;
   font-size: 16px;
+  margin-top: 50px;
 }
 
 .jobs {

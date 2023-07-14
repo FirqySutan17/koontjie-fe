@@ -21,9 +21,10 @@ const routes = [
     component: WorkView,
   },
   {
-    path: "/work-detail",
+    path: "/work-of-collective/:slug",
     name: "work-detail",
     component: WorkDetailView,
+    props: true,
   },
 ];
 
