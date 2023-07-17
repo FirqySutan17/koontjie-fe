@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper-work-detail">
+  <div class="wrapper-work-detail" v-if="portfolio !== null">
     <div class="detail-box">
       <div class="detail">
         <div class="detail-title">CLIENT</div>
@@ -8,120 +8,47 @@
       </div>
       <div class="detail">
         <div class="detail-input">{{ portfolio.client_name }}</div>
-        <div class="detail-input">2021 - ONGOING</div>
         <div class="detail-input">
-          <div class="cat-work">
-            <div class="cat">E - COMMERCE</div>
-            <div class="cat">CENTRA</div>
-            <div class="cat">UI+UX DESIGN</div>
-            <div class="cat">IDENTITY</div>
-            <div class="cat">DEVELOPMENT</div>
+          {{
+            `${portfolio.start_year} - ${
+              portfolio.end_year !== null ? portfolio.end_year : "ONGOING"
+            }`
+          }}
+        </div>
+        <div class="detail-input">
+          <div class="cat-work" v-for="skill in portfolio.skills">
+            <div class="cat">{{ skill.name }}</div>
           </div>
         </div>
       </div>
-      <div class="detail"><a href="#" class="anchor-view">VIEW SITE</a></div>
+      <div class="detail">
+        <a :href="portfolio.link" class="anchor-view">VIEW SITE</a>
+      </div>
     </div>
 
     <div class="detail-work-box">
-      <div class="detail-work">
+      <div class="detail-work" v-for="(image, index) in images" :key="index">
         <img
-          src="@/assets/images/detail/detail-1.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-2.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-3.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-4.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-5.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-6.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <img
-          src="@/assets/images/detail/detail-7.png"
-          alt=""
-          class="work-detail"
-        />
-      </div>
-      <div class="detail-work">
-        <!-- <video style="width: 100%; height: 100%" autoplay muted loop>
-          <source
-            src=""
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video> -->
-        <img
-          src="@/assets/images/detail/detail-8.png"
-          alt=""
+          :src="media + image.image"
+          :alt="image.alt_text"
           class="work-detail"
         />
       </div>
     </div>
   </div>
 
-  <div class="detail-work-group">
+  <div class="detail-work-group" v-if="portfolio !== null">
     <h1 class="detail-work-title">
-      Emma S. skincare is a Swedish skincare brand, founded by former supermodel
-      Emma S. Wiklund.
+      {{ portfolio.project_title }}
     </h1>
     <div class="detail-work-caption">
       <div class="detail-caption"></div>
       <div class="detail-caption"></div>
-      <div class="detail-caption">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim
-        assumenda officiis, praesentium voluptatem debitis sit voluptatum
-        quaerat eius reiciendis illo architecto, totam unde sed ipsa voluptates
-        tenetur, molestiae mollitia! <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        recusandae earum explicabo beatae, ullam quos hic, ipsa magni veritatis
-        sed natus. Ratione iste tempora ipsam nostrum maiores doloribus dicta
-        consequatur!
-      </div>
-      <div class="detail-caption">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim
-        assumenda officiis, praesentium voluptatem debitis sit voluptatum
-        quaerat eius reiciendis illo architecto, totam unde sed ipsa voluptates
-        tenetur, molestiae mollitia! <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        recusandae earum explicabo beatae, ullam quos hic, ipsa magni veritatis
-        sed natus. Ratione iste tempora ipsam nostrum maiores doloribus dicta
-        consequatur!
-      </div>
+      <div class="detail-caption" v-html="portfolio.description"></div>
+      <div class="detail-caption" v-html="portfolio.description_2"></div>
     </div>
     <div class="detail-work-slider">
-      <div class="slider-image">
+      <div class="slider-image" v-if="imageSlider.length > 0">
         <Flicking
           :plugins="plugins"
           :options="{
@@ -132,47 +59,13 @@
             circular: true,
             bound: true,
           }"
+          :hideBeforeInit="true"
         >
-          <div class="slide">
+          <div class="slide" v-for="(image, index) in imageSlider" :key="index">
             <img
               class="img-slide"
-              src="@/assets/images/detail/detail-slide-1.png"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="img-slide"
-              src="@/assets/images/detail/detail-slide-2.png"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="img-slide"
-              src="@/assets/images/detail/detail-slide-3.png"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="img-slide"
-              src="@/assets/images/detail/detail-4.png"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="img-slide"
-              src="@/assets/images/detail/detail-5.png"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="img-slide"
-              src="@/assets/images/detail/detail-6.png"
-              alt=""
+              :src="media + image.image_slider"
+              :alt="image.alt_text_slider"
             />
           </div>
         </Flicking>
@@ -183,59 +76,20 @@
   <div class="box-work _box-work">
     <div class="work"><p>MORE CASES</p></div>
     <div class="work">
-      <router-link to="/work-detail">
+      <router-link
+        :to="'/work-of-collective/' + work.slug"
+        v-for="work in otherPortfolio"
+        :key="work.slug"
+      >
         <div class="pro-box nonactive">
-          <div class="pro-item">Nudie Jeans</div>
-          <div class="pro-item">2010</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box">
-          <div class="pro-item">All Blues</div>
-          <div class="pro-item">2020</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box nonactive">
-          <div class="pro-item">Majblomman</div>
-          <div class="pro-item">2018</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box nonactive">
-          <div class="pro-item">hyper island</div>
-          <div class="pro-item">2022 - 2022</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box">
-          <div class="pro-item">Tinted</div>
-          <div class="pro-item">2022 - 2023</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box">
-          <div class="pro-item">Icebug</div>
-          <div class="pro-item">2022</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box nonactive">
-          <div class="pro-item">Eton Shirts</div>
-          <div class="pro-item">2019 - 2022</div>
-        </div>
-      </router-link>
-
-      <router-link to="/work-detail">
-        <div class="pro-box">
-          <div class="pro-item">Emma S</div>
-          <div class="pro-item">2021 - 2021</div>
+          <div class="pro-item">{{ work.client_name }}</div>
+          <div class="pro-item">
+            {{
+              `${work.start_year} - ${
+                work.end_year !== null ? work.end_year : "ONGOING"
+              }`
+            }}
+          </div>
         </div>
       </router-link>
     </div>
@@ -279,17 +133,33 @@ export default {
       portfolio: null,
       media: process.env.VUE_APP_MEDIA_URL,
       otherPortfolio: [],
+      images: [],
+      imageSlider: [],
     };
   },
   methods: {
     async refreshPortfolioDetail() {
       const getResponse = await getContent("portfolio/" + this.slug);
       if (getResponse.status == 200) {
-        this.portfolio = getResponse.data.data.data;
-        this.portfolio.images.map((image) => {
-          this.imgs.push(this.media + image.image);
+        this.portfolio = getResponse.data.data;
+
+        this.images = this.portfolio.images;
+        this.imageSlider = this.portfolio.imagesliders;
+        console.log(this.portfolio);
+      } else {
+        console.log(getResponse);
+      }
+    },
+    async getOtherPortfolio() {
+      const getResponse = await getContent("portfolio");
+      if (getResponse.status == 200) {
+        getResponse.data.data.map((response) => {
+          if (response.slug !== this.slug) {
+            this.otherPortfolio.push(response);
+          }
         });
-        console.log(getResponse.data.data.data);
+
+        console.log(this.otherPortfolio);
       } else {
         console.log(getResponse);
       }
@@ -297,6 +167,7 @@ export default {
   },
   created() {
     this.refreshPortfolioDetail();
+    this.getOtherPortfolio();
   },
   name: "DetailWorkComp",
   props: {

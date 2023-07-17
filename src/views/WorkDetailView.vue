@@ -2,7 +2,7 @@
   <div class="home">
     <BannerWorkDetailComp />
     <HeaderComp />
-    <DetailWorkComp />
+    <DetailWorkComp :slug="portfolioId" />
     <FooterComp />
   </div>
 </template>

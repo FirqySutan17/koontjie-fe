@@ -3,7 +3,7 @@ import axios from "axios";
 export const getContent = async (endpoint) => {
   try {
     const response = await axios.get(process.env.VUE_APP_API_URL + endpoint);
-    console.log(response);
+    // console.log(response);
     return response;
   } catch (error) {
     if (!error.response) {
