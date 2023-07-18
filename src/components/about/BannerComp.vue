@@ -1,6 +1,22 @@
 <template>
   <div class="wrapper-header">
-    <img class="header-bg" src="@/assets/images/about-first.jpg" alt="" />
+    <div>
+      <img
+        src="@/assets/images/about-first.jpg"
+        style="width: 100%"
+        class="header-bg mySlides w3-animate-fading"
+      />
+      <img
+        src="@/assets/images/about-second.jpg"
+        style="width: 100%"
+        class="header-bg mySlides w3-animate-fading"
+      />
+      <img
+        src="@/assets/images/about-third.jpg"
+        style="width: 100%"
+        class="header-bg mySlides w3-animate-fading"
+      />
+    </div>
     <div class="header-tagline">
       <h1>KOLAB ADALAH KOONTJIE</h1>
     </div>
@@ -14,6 +30,24 @@ export default {
   name: "BannerComp",
   props: {
     msg: String,
+  },
+  mounted() {
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1;
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 9000);
+    }
   },
 };
 </script>
@@ -46,6 +80,23 @@ export default {
   font-size: 35px;
 
   color: #fff;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.mySliders {
+  object-fit: contain !important;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @media (max-width: 1400px) {
   .header-tagline h1 {

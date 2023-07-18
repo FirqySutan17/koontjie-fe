@@ -16,8 +16,10 @@
           }}
         </div>
         <div class="detail-input">
-          <div class="cat-work" v-for="skill in portfolio.skills">
-            <div class="cat">{{ skill.name }}</div>
+          <div class="cat-work">
+            <div class="cat" v-for="skill in portfolio.skills">
+              {{ skill.name }}
+            </div>
           </div>
         </div>
       </div>
