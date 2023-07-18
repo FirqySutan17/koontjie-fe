@@ -16,10 +16,8 @@
           }}
         </div>
         <div class="detail-input">
-          <div class="cat-work">
-            <div class="cat" v-for="skill in portfolio.skills">
-              {{ skill.name }}
-            </div>
+          <div class="cat-work" v-for="skill in portfolio.skills">
+            <div class="cat">{{ skill.name }}</div>
           </div>
         </div>
       </div>
@@ -79,9 +77,10 @@
     <div class="work"><p>MORE CASES</p></div>
     <div class="work">
       <router-link
-        :to="'/work-of-collective/' + work.slug"
+        :to="{ name: 'work-detail', params: { slug: work.slug } }"
         v-for="work in otherPortfolio"
         :key="work.slug"
+        replace
       >
         <div class="pro-box nonactive">
           <div class="pro-item">{{ work.client_name }}</div>
@@ -170,6 +169,22 @@ export default {
   created() {
     this.refreshPortfolioDetail();
     this.getOtherPortfolio();
+
+    this.$watch(
+      () => this.$route.params.slug,
+      (toParams, previousParams) => {
+        if (toParams !== previousParams) {
+          this.portfolio = [];
+          this.otherPortfolio = [];
+          this.images = [];
+          this.imageSlider = [];
+          this.$nextTick(() => {
+            this.refreshPortfolioDetail();
+            this.getOtherPortfolio();
+          });
+        }
+      }
+    );
   },
   name: "DetailWorkComp",
   props: {

@@ -134,6 +134,15 @@ export default {
   },
   created() {
     this.refreshMeta();
+    this.$watch(
+      () => this.$route.params.slug,
+      (toParams, previousParams) => {
+        if (toParams !== previousParams) {
+          this.portfolioId = toParams;
+          console.log(this.portfolioId);
+        }
+      }
+    );
   },
 };
 </script>
