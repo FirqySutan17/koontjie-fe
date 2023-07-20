@@ -1,9 +1,9 @@
 <template>
-  <div class="wrapper-header">
-    <img class="header-bg" src="@/assets/images/work.jpg" alt="" />
-    <div class="header-tagline-work">
+  <div class="wrapper-header-about">
+    <img class="header-bg-about" src="@/assets/images/work.jpg" alt="" />
+    <!-- <div class="header-tagline-work">
       <h1>KUALITAS ADALAH KOONTJIE</h1>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
   object-fit: cover;
   width: 100%;
   margin: 0;
-  height: 90vh;
+  height: auto;
 }
 
 .header-tagline-work {

@@ -16,12 +16,12 @@ const routes = [
     component: AboutView,
   },
   {
-    path: "/work-of-collective",
+    path: "/portfolio",
     name: "work",
     component: WorkView,
   },
   {
-    path: "/work-of-collective/:slug",
+    path: "/portfolio/:slug",
     name: "work-detail",
     component: WorkDetailView,
     props: true,

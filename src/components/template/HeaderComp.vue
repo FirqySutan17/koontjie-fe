@@ -9,18 +9,16 @@
           </router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/work-of-collective"
-            >WORKS OF COLLECTIVE</router-link
-          >
+          <router-link class="m-anchor" to="/">WORKS OF COLLECTIVE</router-link>
         </div>
         <div class="menus">
           <router-link class="m-anchor" to="/about">ABOUT</router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/">PORTFOLIO</router-link>
+          <router-link class="m-anchor" to="/portfolio">PORTFOLIO</router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/">CONTACT</router-link>
+          <router-link class="m-anchor" to="/contact">CONTACT</router-link>
         </div>
         <div class="menus">A MEMBER OF PINC GROUP OF COMPANIES</div>
       </div>
@@ -42,7 +40,7 @@
       <div class="wrapper-menu">
         <ul>
           <li>
-            <router-link to="/work-of-collective" class="m-anchor"
+            <router-link to="/" class="m-anchor"
               >WORKS OF COLLECTIVE</router-link
             >
           </li>
@@ -50,12 +48,14 @@
             <router-link to="/about" class="m-anchor">ABOUT</router-link>
           </li>
           <li>
-            <router-link to="/" class="m-anchor" href="#"
+            <router-link to="/portfolio" class="m-anchor" href="#"
               >PORTFOLIO</router-link
             >
           </li>
           <li>
-            <router-link to="/" class="m-anchor" href="#">CONTACT</router-link>
+            <router-link to="/contact" class="m-anchor" href="#"
+              >CONTACT</router-link
+            >
           </li>
           <li>A MEMBER OF PINC GROUP OF COMPANIES</li>
         </ul>
@@ -115,6 +115,9 @@ header.mobile {
 }
 
 a.activeLinkClass {
+  color: #ff008c !important;
+}
+a.router-link-exact-active {
   color: #ff008c !important;
 }
 .wrapper-menu {

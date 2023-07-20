@@ -1,9 +1,9 @@
 <template>
-  <div class="wrapper-header">
-    <img class="header-bg" src="@/assets/images/work.jpg" alt="" />
-    <div class="header-tagline-work">
+  <div class="wrapper-header-about">
+    <img class="header-bg-about" src="@/assets/images/work.jpg" alt="" />
+    <!-- <div class="header-tagline-work">
       <h1>LUCU ADALAH KOONTJIE</h1>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -1,25 +1,25 @@
 <template>
-  <div class="wrapper-header">
+  <div class="wrapper-header-about">
     <div>
       <img
         src="@/assets/images/about-first.jpg"
-        style="width: 100%"
-        class="header-bg mySlides w3-animate-fading"
+        style="object-position: bottom"
+        class="header-bg-about mySlides w3-animate-fading"
       />
       <img
         src="@/assets/images/about-second.jpg"
-        style="width: 100%"
-        class="header-bg mySlides w3-animate-fading"
+        style="object-position: bottom"
+        class="header-bg-about mySlides w3-animate-fading"
       />
       <img
         src="@/assets/images/about-third.jpg"
-        style="width: 100%"
-        class="header-bg mySlides w3-animate-fading"
+        style="object-position: bottom"
+        class="header-bg-about mySlides w3-animate-fading"
       />
     </div>
-    <div class="header-tagline">
+    <!-- <div class="header-tagline">
       <h1>KOLAB ADALAH KOONTJIE</h1>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -53,18 +53,18 @@ export default {
 </script>
 
 <style>
-.wrapper-header {
+.wrapper-header-about {
   display: block;
-  height: 100vh;
+  height: auto;
 }
-.header-bg {
+.header-bg-about {
   object-fit: cover;
   width: 100%;
   margin: 0;
-  height: 90vh;
+  height: 100vh;
 }
 
-.header-tagline {
+/* .header-tagline {
   margin: 0;
   height: 141px;
   background-color: #000;
@@ -73,7 +73,7 @@ export default {
   justify-content: center;
   margin-top: -5px;
   height: 10vh;
-}
+} */
 .header-tagline h1 {
   letter-spacing: 45px;
   font-weight: 700;
@@ -111,10 +111,10 @@ export default {
   .wrapper-menu ul li a {
     padding: 0px;
   }
-  .wrapper-header {
+  .wrapper-header-about {
     height: auto;
   }
-  .header-bg {
+  .header-bg-about {
     height: auto;
   }
 
