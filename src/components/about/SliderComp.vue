@@ -3,11 +3,12 @@
     <div class="container">
       <div class="wrapper-last">
         <div class="p-relative">
-          <h2>THE CREATIVE COLLECTIVE AT KOONTJIE</h2>
+          <h2>CREATIVE COLLECTIVE DI KOONTJIE</h2>
           <h4>
-            A band of creatives driven by passion and collaboration, <br />
-            jamming together at KOONTJIE to deliver fresh and impactful
-            solutions.
+            Kami mengumpulkan berbagai spesialis kreatif yang didorong oleh
+            semangat yang sama, <br />
+            yaitu kolaborasi bersama untuk menghadirkan solusi yang
+            <i>fresh</i> dan <i>impactful</i>.
           </h4>
         </div>
       </div>
@@ -106,7 +107,14 @@ export default {
 }
 .img-slide {
   width: 100%;
+  height: 400px;
   object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .img-slide {
+    height: auto;
+  }
 }
 
 @media (max-width: 600px) {

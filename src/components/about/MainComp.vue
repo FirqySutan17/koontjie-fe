@@ -3,11 +3,11 @@
     <div class="container">
       <div class="wrapper-main">
         <div class="p-relative">
-          <h2>HELLO! We ARE the Koontjieans.</h2>
+          <h2>HELLO! KAMI ADALAH KOONTJIEAN</h2>
           <h4>
-            We ARE the Koontjieans. We are the go-to guys for creative
-            solutions, backed with decades <br />
-            of experience and various recognitions from the industry.
+            Kami adalah orang - orang yang diandalkan untuk solusi kreatif,<br />
+            dengan dukungan puluhan tahun pengalaman dan berbagai pengakuan dari
+            industri kreatif.
           </h4>
         </div>
       </div>
@@ -16,53 +16,51 @@
           <p class="name-founders">Yohannes Muliady</p>
           <p class="role-founders">Chief Executive Officer</p>
           <p class="caption-founders">
-            Yohannes is a creative who champions simplicity while staying rooted
-            in relevancy and insight. With a career spanning over two decades,
-            he has held key leadership roles, notably at Mata Angin Creative
-            Agency, including Creative Director, Executive Creative Director,
-            and Chief Creative Officer. Under his guidance, he sets in motion
-            remarkable growth at the agency, securing its position as the third
-            hottest Indonesian agency on Campaign Brief's 2021 list.
-            <br /><br />
-            Yohannes collaborated with prominent clients such as IM3 Ooredoo,
-            Bank Jago, Adira Finance, and BCA Bank. He also led creative teams
-            at Pantarei Communications and Roundtable Communication,
-            contributing to successful campaigns for Danamon Bank, LG
-            electronics, and Tri Indonesia. <br /><br />
-            He has been honored with numerous industry awards, including
-            acceptance into The Work by Campaign Brief for various categories,
-            Citra Pariwara Bronze awards, an Adstars Busan Crystal award, MMA
-            Gold and Silver awards, and recognition in the YouTube Ads
-            Leaderboard and Pinansthika Award Festival.
+            Sebagai seorang kreatif yang selalu mengedepankan kesederhanaan
+            namun tetap berakar pada relevansi selama lebih dari dua dekade,
+            Yohannes telah mengemban peran kepemimpinan kunci, terutama di Mata
+            Angin Creative Agency sebagai Creative Director, Executive Creative
+            Director, dan Chief Creative Officer. Di bawah bimbingannya, ia
+            menginisiasi pertumbuhan yang luar biasa di agensi tersebut hingga
+            dinobatkan sebagai #3 Hottest Indonesian Agency dalam daftar
+            Campaign Brief 2021. <br /><br />
+            Selain pengalaman bekerja sama dengan klien-klien terkemuka seperti
+            IM3 Ooredoo, Bank Jago, Adira Finance, dan Bank BCA, Ia juga
+            memimpin tim kreatif di Pantarei Communications dan Roundtable
+            Communication yang berkontribusi pada kampanye-kampanye sukses untuk
+            Bank Danamon, elektronik LG, dan Tri Indonesia. <br />
+            <br />
+            Yohannes telah mendapatkan berbagai penghargaan dan pengakuan dalam
+            industri, dimana karyanya telah diterima di The Work oleh Campaign
+            Brief, memenangkan Citra Pariwara, Crystal Award Adstars Busan, MMA
+            Gold & Silver Awards, serta penghargaan dari YouTube Ads Leaderboard
+            dan Pinansthika Award Festival.
           </p>
           <img class="img-founders" src="@/assets/images/Yohannes.png" alt="" />
         </div>
         <div class="founders">
           <p class="name-founders">Aditiyawarman (Daseng)</p>
-          <p class="role-founders">Chief Operating Officer</p>
+          <p class="role-founders">Chief Operation Officer</p>
           <p class="caption-founders">
-            Aditiyawarman embarked on his creative journey in 2002 as a graphic
-            designer at Flame, a small advertising agency. In 2005, he
-            transitioned to Pantarei, assuming the role of senior graphic
-            designer and overseeing diverse brands in the Telco, F&B, and
-            Banking sectors.
-            <br /><br />
-            From 2008 to 2014, Aditiyawarman excelled as the design director for
-            DesignHub at Pantarei, spearheading the development of the branding
-            division. His contributions were instrumental in establishing
-            renowned brands such as Grand Indonesia, ARTOTEL, Padma Hotel,
-            Breadlife, Blibli, Anteraja, and Adira Finance. <br /><br />
-            Joining Mata Angin in 2015, Aditiyawarman made significant
-            contributions to the agency's growth and was appointed Head of
-            Operations in 2018. He played an active role in driving the
-            company's success until 2022.
-            <br /><br />
-            With over 21 years of experience as a creative, operational manager,
-            and account servicing professional, in 2022 Aditiyawarman, together
-            with his former colleagues from Pantarei and Mata Angin, embarked on
-            the operation of Koontjie, a new venture within the esteemed PINC
-            Group, showcasing their collective expertise and vision for the
-            future.
+            Aditiyawarman memulai perjalanan kreatifnya pada tahun 2002 sebagai
+            desainer grafis di Flame, yang membuka jalannya untuk beralih ke
+            Pantarei pada tahun 2005,dan mengemban peran sebagai desainer grafis
+            senior yang mengawasi berbagai brand di sektor Telco, F&B, dan
+            Perbankan. <br /><br />
+            Dari tahun 2008 hingga 2014, Aditiyawarman sebagai direktur desain
+            untuk DesignHub di Pantarei, memimpin pengembangan divisi branding.
+            Kontribusinya termasuk dalam membangun merek-merek ternama seperti
+            Grand Indonesia, ARTOTEL, Padma Hotel, Breadlife, Blibli, Anteraja,
+            dan Adira Finance. Bergabung dengan Mata Angin pada tahun 2015,
+            Aditiyawarman memberikan kontribusi signifikan bagi pertumbuhan
+            agensi tersebut dan ditunjuk sebagai Kepala Operasional pada tahun
+            2018. Ia berperan aktif dalam mendorong kesuksesan perusahaan hingga
+            tahun 2022. <br /><br />
+            Setelah mengecap pengalaman selama lebih dari 21 tahun sebagai
+            seorang kreatif, manajer operasional, dan account service, pada
+            tahun 2022 Aditiyawarman, bersama dengan rekan-rekan lamanya dari
+            Pantarei dan Mata Angin, memulai Koontjie, sebuah entitas baru
+            berbasis kolektivitas kreatif di dalam PINC Group.
           </p>
           <img
             class="img-founders"
@@ -75,36 +73,19 @@
           <p class="name-founders">ANTON YUDHISTIRA POE (Ipong)</p>
           <p class="role-founders">Chief Creative Officer</p>
           <p class="caption-founders">
-            Ipong is a highly accomplished professional with 12 years of
-            experience in the advertising agency industry. Throughout his
-            career, he has demonstrated an exceptional ability to create
-            outstanding work by staying attuned to trends and understanding the
-            intricacies of human behavior. <br /><br />
-            As a seasoned expert in the field, Ipong has successfully handled
-            campaigns for renowned telco brands and beer brands. His deep
-            understanding of consumer insights and market dynamics has allowed
-            him to develop impactful and innovative advertising strategies that
-            resonate with target audiences. <br /><br />
-            Ipong's talent and dedication have not gone unnoticed in the
-            industry. He has been honored with numerous accolades and industry
-            awards, including acceptance into the prestigious Campaign Brief
-            Work, Citra Pariwara, AdStars Busan Crystal Award, and MMA Gold and
-            Silver Awards. His work has also gained recognition in the YouTube
-            Leaderboard, further solidifying his reputation as a top-tier
-            advertising professional.
-            <br /><br />
-            Known for his creative flair and strategic thinking, Ipong
-            continuously pushes boundaries and strives for excellence in every
-            project he undertakes. He thrives in dynamic and fast-paced
-            environments, leveraging his vast experience and expertise to
-            deliver exceptional results for his clients. <br /><br />
-            With a passion for his craft and an unwavering commitment to
-            producing outstanding work, Ipong consistently demonstrates his
-            ability to bring brands to life through impactful and engaging
-            advertising campaigns. He is a valuable asset to any team, combining
-            his industry knowledge, trend-spotting skills, and understanding of
-            human psychology to create powerful brand experiences that leave a
-            lasting impression.
+            Dengan pengalaman sebagai kreatif selama lebih dari 12 tahun di
+            industri periklanan, Sepanjang karirnya Ipong selalu percaya
+            terhadap kesinambungan dalam mengikuti tren yang dikombinasikan
+            dengan pemahaman dalam kompleksitas perilaku manusia. Kepercayaan
+            ini yang memungkinkan Ipong dalam menciptakan berbagai kampanye
+            untuk merek-merek terkenal di industri telekomunikasi dan bir.
+            <br />
+            <br />
+            Kontribusi dan dedikasi Ipong tidak luput dari perhatian di industri
+            kreatif. Ia telah mendapatkan berbagai penghargaan dan pengakuan,
+            termasuk diterima di Campaign Brief Work yang bergengsi, penghargaan
+            Citra Pariwara, AdStars Busan Crystal Award, serta MMA Gold dan
+            Silver Awards. Karyanya juga telah dikenal di YouTube Leaderboard.
           </p>
         </div>
         <div class="founders">
@@ -256,7 +237,7 @@ export default {
   .founders:nth-child(4) {
     margin-top: 560px;
   }
-  
+
   .founders .name-founders {
     font-size: 18px;
   }
@@ -333,7 +314,6 @@ export default {
   .wrapper-main h4 {
     font-size: 22px;
   }
-  
 }
 
 @media (max-width: 300px) {

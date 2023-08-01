@@ -36,7 +36,7 @@
         </div>
         <div class="work">
           <div class="textris-box">
-            <p>TEXTRIS</p>
+            <!-- <p>TEXTRIS</p>
             <p>{{ currentTime }}</p>
 
             <div class="highscore-box">
@@ -86,11 +86,11 @@
                 </div>
               </div>
             </div>
-            <p class="btn-play">Play game &#10132;</p>
+            <p class="btn-play">Play game &#10132;</p> -->
           </div>
 
           <div class="hiring-box">
-            <p>WE'RE HIRING!</p>
+            <!-- <p>WE'RE HIRING!</p>
 
             <div class="jobs">
               <router-link to="/"><p>WEB DEVELOPER</p></router-link>
@@ -99,7 +99,7 @@
               >
               <router-link to="/"><p>UX-DESIGNER</p></router-link>
               <router-link to="/"><p>INTERNSHIPS</p></router-link>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

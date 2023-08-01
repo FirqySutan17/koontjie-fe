@@ -22,7 +22,9 @@
         </div>
       </div>
       <div class="detail">
-        <a :href="portfolio.link" class="anchor-view">VIEW SITE</a>
+        <a :href="portfolio.link" class="anchor-view" target="_blank"
+          >VIEW SITE</a
+        >
       </div>
     </div>
 
@@ -96,7 +98,7 @@
     </div>
     <div class="work">
       <div class="hiring-box">
-        <p>WE'RE HIRING!</p>
+        <!-- <p>WE'RE HIRING!</p>
 
         <div class="jobs">
           <router-link to="/work-detail"><p>WEB DEVELOPER</p></router-link>
@@ -105,7 +107,7 @@
           >
           <router-link to="/work-detail"><p>UX-DESIGNER</p></router-link>
           <router-link to="/work-detail"><p>INTERNSHIPS</p></router-link>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -295,7 +297,7 @@ export default {
 .detail-work-box .detail-work:nth-child(4) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: auto;
+  width: 100%;
   padding-bottom: 4px;
 }
 
@@ -310,7 +312,7 @@ export default {
 .detail-work-box .detail-work:nth-child(5) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: auto;
+  width: 100%;
   padding-bottom: 4px;
 }
 

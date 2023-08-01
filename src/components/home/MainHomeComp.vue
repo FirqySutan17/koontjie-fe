@@ -17,11 +17,10 @@
       <div class="box-headline">
         <div class="headline">
           <div class="p-relative">
-            <h2>Redefining Creativity through Collaboration.</h2>
+            <h2>SOLUSI, KREATIF, DAN KOLABORATIF</h2>
             <h4>
-              KOONTJIE represents a new wave of creative agencies, with
-              collaboration in our DNA and a network of talented individuals in
-              our creative collective.
+              3 hal yang membuat kami akan selalu menjadi koontjian untuk solusi
+              kreatif brand anda.
             </h4>
           </div>
         </div>
@@ -86,7 +85,7 @@ export default {
   font-size: 60px;
   margin-bottom: 10px;
   letter-spacing: -4px;
-  line-height: 55px;
+  line-height: 70px;
 }
 
 .wrapper-headline h4 {
