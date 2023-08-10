@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import WorkView from "../views/WorkView.vue";
 import WorkDetailView from "../views/WorkDetailView.vue";
+import ContactView from "../views/ContactView.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     name: "work-detail",
     component: WorkDetailView,
     props: true,
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: ContactView,
   },
 ];
 

@@ -154,7 +154,7 @@ export default {
   grid-template-columns: repeat(8, 1fr);
   width: 100%;
   column-gap: 150px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .box-work .work:nth-child(1) {
   grid-column: span 2;

@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     async refreshMeta() {
-      const getResponse = await getMetaPage("home");
+      const getResponse = await getMetaPage("portfolio");
       if (getResponse.status === 200) {
         const data = getResponse.data.data;
         console.log(getResponse);

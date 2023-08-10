@@ -83,7 +83,7 @@ export default {
 .wrapper-last {
   display: block;
   text-align: left;
-  padding: 0px 20px;
+  padding: 0px 10px;
   line-height: 35px;
   align-content: space-around;
   align-items: center;

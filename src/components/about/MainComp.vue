@@ -133,7 +133,7 @@ export default {
 .wrapper-main {
   display: flex;
   text-align: left;
-  padding: 0px 20px;
+  padding: 0px 10px;
   line-height: 35px;
   height: 30vh;
   align-content: space-around;

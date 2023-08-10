@@ -3,10 +3,10 @@
     <div class="container">
       <div class="box-ban">
         <div class="ban">
-          <img src="@/assets/images/home/ban-1.png" alt="" />
+          <img src="@/assets/images/home/belleza.jpg" alt="" />
         </div>
         <div class="ban">
-          <img src="@/assets/images/home/ban-2.png" alt="" />
+          <img src="@/assets/images/home/skai-web.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -19,8 +19,8 @@
           <div class="p-relative">
             <h2>SOLUSI, KREATIF, DAN KOLABORATIF</h2>
             <h4>
-              3 hal yang membuat kami akan selalu menjadi koontjian untuk solusi
-              kreatif brand anda.
+              3 hal yang membuat kami akan selalu menjadi koontjiean untuk
+              solusi kreatif brand anda.
             </h4>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default {
 <style>
 .wrapper-main-home {
   display: flex;
-  padding: 0px 20px;
+  padding: 0px 10px;
   align-content: space-around;
   align-items: center;
   margin-top: 50px;

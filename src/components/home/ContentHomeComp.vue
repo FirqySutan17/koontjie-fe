@@ -48,16 +48,16 @@
 
       <div class="showcase-box">
         <div class="showcase">
-          <img src="@/assets/images/home/img-1.png" alt="" />
+          <img src="@/assets/images/home/coffe-cup.jpg" alt="" />
         </div>
         <div class="showcase">
-          <img src="@/assets/images/home/img-4.png" alt="" />
+          <img src="@/assets/images/home/gocorp.jpeg" alt="" />
         </div>
         <div class="showcase">
-          <img src="@/assets/images/home/img-3.png" alt="" />
+          <img src="@/assets/images/home/merci.jpg" alt="" />
         </div>
         <div class="showcase">
-          <img src="@/assets/images/home/img-2.png" alt="" />
+          <img src="@/assets/images/home/bottle-juice.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ export default {
 <style>
 .wrapper-content {
   display: block;
-  padding: 0px 20px;
+  padding: 0px 10px;
   align-content: space-around;
   align-items: center;
   margin-top: 50px;
@@ -170,7 +170,7 @@ export default {
 .showcase:nth-child(2) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: auto;
+  width: 70%;
 }
 .showcase:nth-child(3) {
   display: flex;
@@ -180,7 +180,7 @@ export default {
 .showcase:nth-child(3) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: auto;
+  width: 70%;
 }
 
 @media (max-width: 992px) {
@@ -203,6 +203,10 @@ export default {
 @media (max-width: 800px) {
   .ticker-wrap .ticker__item {
     font-size: 18px;
+  }
+  .showcase-box .showcase {
+    grid-column: span 8;
+    margin-bottom: 10px;
   }
 }
 
