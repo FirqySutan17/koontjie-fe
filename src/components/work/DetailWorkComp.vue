@@ -30,7 +30,7 @@
 
     <div class="detail-work-box">
       <div class="detail-work" v-for="(image, index) in images" :key="index">
-        <div v-if="image !== null">
+        <div v-if="isVideo(image.image)">
           <video controls style="width: 100%; border-radius: 5px">
             <source :src="media + image.image" type="video/mp4" />
             <source :src="media + image.image" type="video/ogg" />
@@ -175,6 +175,17 @@ export default {
       } else {
         console.log(getResponse);
       }
+    },
+    isVideo(fileName) {
+      const videoFormatList = [".mp4"]; //tambahkan format video sesuai kebutuhan
+      let result = false;
+      videoFormatList.forEach((format) => {
+        if (fileName.includes(format)) {
+          result = true;
+        }
+      });
+
+      return result;
     },
   },
   created() {
