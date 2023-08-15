@@ -30,11 +30,20 @@
 
     <div class="detail-work-box">
       <div class="detail-work" v-for="(image, index) in images" :key="index">
-        <img
-          :src="media + image.image"
-          :alt="image.alt_text"
-          class="work-detail"
-        />
+        <div v-if="image !== null">
+          <video controls style="width: 100%; border-radius: 5px">
+            <source :src="media + image.image" type="video/mp4" />
+            <source :src="media + image.image" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div v-else>
+          <img
+            :src="media + image.image"
+            :alt="image.alt_text"
+            class="work-detail"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -297,7 +306,7 @@ export default {
 .detail-work-box .detail-work:nth-child(4) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: 100%;
+  width: 70%;
   padding-bottom: 4px;
 }
 
@@ -312,7 +321,7 @@ export default {
 .detail-work-box .detail-work:nth-child(5) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: 100%;
+  width: 70%;
   padding-bottom: 4px;
 }
 
@@ -327,7 +336,7 @@ export default {
 .detail-work-box .detail-work:nth-child(6) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: 100%;
+  width: 70%;
   padding-bottom: 4px;
 }
 
@@ -342,7 +351,7 @@ export default {
 .detail-work-box .detail-work:nth-child(7) img {
   -o-object-fit: scale-down;
   object-fit: scale-down;
-  width: 100%;
+  width: 70%;
   padding-bottom: 4px;
 }
 
