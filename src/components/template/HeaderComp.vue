@@ -9,7 +9,7 @@
           </router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/">WORKS OF COLLECTIVE</router-link>
+          <router-link class="m-anchor" to="/">HOME</router-link>
         </div>
         <div class="menus">
           <router-link class="m-anchor" to="/about">ABOUT</router-link>

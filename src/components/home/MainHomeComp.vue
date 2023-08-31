@@ -14,8 +14,8 @@
 
   <div class="container">
     <div class="wrapper-headline">
-      <div class="box-headline">
-        <div class="headline">
+      <div class="box-headline" style="margin-bottom: 30px">
+        <!-- <div class="headline">
           <div class="p-relative">
             <h2>SOLUSI, KREATIF, DAN KOLABORATIF</h2>
             <h4>
@@ -23,19 +23,40 @@
               solusi kreatif brand anda.
             </h4>
           </div>
-        </div>
+        </div> -->
+        <!-- <div class="headline"></div> -->
         <div class="headline">
-          <p>SERVICES</p>
-        </div>
-        <div class="headline">
-          <p><a href="#" class="services">BRAND COMMUNICATION</a></p>
-          <p><a href="#" class="services">GRAPHIC DESIGN</a></p>
-          <p><a href="#" class="services">VIDEO & CONTENT PRODUCTION</a></p>
-          <p><a href="#" class="services">MOTION DESIGN</a></p>
-          <p><a href="#" class="services">CREATIVE DEVELOPMENT</a></p>
-          <p><a href="#" class="services">CREATIVE SUPPORT</a></p>
+          <h2>KOONTJIE: Kreativitas melalui Kolaborasi</h2>
+          <h4>
+            Pernah tersandera oleh birokrasi agensi besar dalam menjalankan visi
+            brand Anda, dan menginginkan pendekatan yang lebih langsung?
+            <br /><br />
+            Dengan merangkul esensi kolaborasi, KOONTJIE mewakili gelombang baru
+            agensi kreatif. Struktur kami yang lincah dan efisien mengedepankan
+            solusi kreatif yang berkualitas dalam waktu singkat, dengan
+            memangkas birokrasi dan memberikan Anda akses langsung kepada
+            kreatif kami.
+          </h4>
         </div>
       </div>
+      <!-- 
+      <div class="box-headline">
+        <div class="headline" style="grid-column: span 8">
+          <div class="p-relative">
+            <h2>KOONTJIE: Kreativitas melalui Kolaborasi</h2>
+            <h4>
+              Pernah tersandera oleh birokrasi agensi besar dalam menjalankan
+              visi brand Anda, dan menginginkan pendekatan yang lebih langsung?
+              <br /><br />
+              Dengan merangkul esensi kolaborasi, KOONTJIE mewakili gelombang
+              baru agensi kreatif. Struktur kami yang lincah dan efisien
+              mengedepankan solusi kreatif yang berkualitas dalam waktu singkat,
+              dengan memangkas birokrasi dan memberikan Anda akses langsung
+              kepada kreatif kami.
+            </h4>
+          </div>
+        </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -90,7 +111,7 @@ export default {
 
 .wrapper-headline h4 {
   font-weight: 400;
-  font-size: 35px;
+  font-size: 28px;
   letter-spacing: -2px;
   line-height: 40px;
 }
@@ -105,17 +126,12 @@ export default {
   column-gap: 100px;
 }
 .box-headline .headline:nth-child(1) {
-  grid-column: span 5;
+  grid-column: span 8;
   width: 100%;
 }
 .box-headline .headline:nth-child(2) {
-  grid-column: span 1;
+  grid-column: span 4;
   width: 100%;
-}
-.box-headline .headline:nth-child(3) {
-  grid-column: span 2;
-  width: 100%;
-  line-height: 22.5px;
 }
 
 .headline p {

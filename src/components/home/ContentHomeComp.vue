@@ -5,42 +5,40 @@
         <div class="ticker-wrap">
           <div class="ticker">
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; TBS®
+              <span class="dot">•</span> &nbsp; BRAND COMMUNICATION
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Read all about frictionless
-              e-commerce with Aino
+              <span class="dot">•</span> &nbsp; GRAPHIC DESIGN
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Follow us on insta for more
-              updates
+              <span class="dot">•</span> &nbsp; VIDEO & CONTENT PRODUCTION
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; We’re hiring developers and
-              designers!
+              <span class="dot">•</span> &nbsp; MOTION DESIGN designers!
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Different flavors of this
-              website are available in the footer
+              <span class="dot">•</span> &nbsp; CREATIVE DEVELOPMENT
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; TBS®
+              <span class="dot">•</span> &nbsp; CREATIVE SUPPORT
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Read all about frictionless
-              e-commerce with Aino
+              <span class="dot">•</span> &nbsp; BRAND COMMUNICATION
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Follow us on insta for more
-              updates
+              <span class="dot">•</span> &nbsp; GRAPHIC DESIGN
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; We’re hiring developers and
-              designers!
+              <span class="dot">•</span> &nbsp; VIDEO & CONTENT PRODUCTION
             </div>
             <div class="ticker__item">
-              <span class="dot">•</span> &nbsp; Different flavors of this
-              website are available in the footer
+              <span class="dot">•</span> &nbsp; MOTION DESIGN designers!
+            </div>
+            <div class="ticker__item">
+              <span class="dot">•</span> &nbsp; CREATIVE DEVELOPMENT
+            </div>
+            <div class="ticker__item">
+              <span class="dot">•</span> &nbsp; CREATIVE SUPPORT
             </div>
           </div>
         </div>
@@ -81,7 +79,7 @@ export default {
   padding: 0px 10px;
   align-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 0px;
   overflow: hidden;
 }
 @-webkit-keyframes ticker {
