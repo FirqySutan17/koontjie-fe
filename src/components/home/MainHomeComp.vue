@@ -26,7 +26,9 @@
         </div> -->
         <!-- <div class="headline"></div> -->
         <div class="headline">
-          <h2>KOONTJIE: Kreativitas melalui Kolaborasi</h2>
+          <h2 style="letter-spacing: 1px">
+            KOONTJIE: Kreativitas melalui Kolaborasi
+          </h2>
           <h4>
             Pernah tersandera oleh birokrasi agensi besar dalam menjalankan visi
             brand Anda, dan menginginkan pendekatan yang lebih langsung?
@@ -186,6 +188,9 @@ export default {
   .box-headline .headline:nth-child(3) {
     line-height: 35px;
   }
+  .wrapper-headline h4 {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -193,7 +198,7 @@ export default {
     font-size: 47px;
   }
   .wrapper-headline h4 {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
@@ -202,7 +207,7 @@ export default {
     font-size: 44px;
   }
   .wrapper-headline h4 {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
@@ -217,7 +222,7 @@ export default {
   }
   .wrapper-headline h4 {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0px;
     line-height: 30px;
   }

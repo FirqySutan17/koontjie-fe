@@ -9,16 +9,16 @@
           </router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/">HOME</router-link>
+          <router-link class="m-anchor" to="/">BERANDA</router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/about">ABOUT</router-link>
+          <router-link class="m-anchor" to="/about">TENTANG</router-link>
         </div>
         <div class="menus">
           <router-link class="m-anchor" to="/portfolio">PORTFOLIO</router-link>
         </div>
         <div class="menus">
-          <router-link class="m-anchor" to="/contact">CONTACT</router-link>
+          <router-link class="m-anchor" to="/contact">KONTAK</router-link>
         </div>
         <div class="menus">A MEMBER OF PINC GROUP OF COMPANIES</div>
       </div>
@@ -45,7 +45,7 @@
             >
           </li>
           <li>
-            <router-link to="/about" class="m-anchor">ABOUT</router-link>
+            <router-link to="/about" class="m-anchor">TENTANG</router-link>
           </li>
           <li>
             <router-link to="/portfolio" class="m-anchor" href="#"
@@ -54,7 +54,7 @@
           </li>
           <li>
             <router-link to="/contact" class="m-anchor" href="#"
-              >CONTACT</router-link
+              >KONTAK</router-link
             >
           </li>
           <li>A MEMBER OF PINC GROUP OF COMPANIES</li>

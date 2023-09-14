@@ -93,24 +93,31 @@
           <p class="name-founders">Ranti Indraswari</p>
           <p class="role-founders">Project Manager</p>
           <p class="caption-founders">
-            Yohannes is a creative who champions simplicity while staying rooted
-            in relevancy and insight. With a career spanning over two decades,
-            he has held key leadership roles, notably at Mata Angin Creative
-            Agency, including Creative Director, Executive Creative Director,
-            and Chief Creative Officer. Under his guidance, he sets in motion
-            remarkable growth at the agency, securing its position as the third
-            hottest Indonesian agency on Campaign Brief's 2021 list.
+            Ranti lulus dari Universitas Prof.Dr. Moestopo Fakultas Komunikasi
+            jurusan Periklanan, mengawali karirnya sebagai Account Services di
+            berbagai perusahaan, seperti : Dentsu Indonesia di 2004, Colman
+            Handoko, X-Factor Indonesia. Lalu pada tahun 2010 bergabung dengan
+            Pantarei Communications. Dari beberapa agency tersebut Ranti
+            mendapatkan pengalaman menangani beberapa kategori brand seperti
+            elektronik, F & B, banking dan telco.
             <br /><br />
-            Yohannes collaborated with prominent clients such as IM3 Ooredoo,
-            Bank Jago, Adira Finance, and BCA Bank. He also led creative teams
-            at Pantarei Communications and Roundtable Communication,
-            contributing to successful campaigns for Danamon Bank, LG
-            electronics, and Tri Indonesia. <br /><br />
-            He has been honored with numerous industry awards, including
-            acceptance into The Work by Campaign Brief for various categories,
-            Citra Pariwara Bronze awards, an Adstars Busan Crystal award, MMA
-            Gold and Silver awards, and recognition in the YouTube Ads
-            Leaderboard and Pinansthika Award Festival.
+            Pada tahun 2012 Ranti di percaya untuk menjadi Production & Traffic
+            Coordinator di Pantarei Communications untuk mengelola traffic
+            antara tim ATL, BTL, Brand dan internal tim bertanggung jawab
+            terhadap semua materi komunikasi dan budget produksi. <br /><br />
+            Pada tahun 2015 dipercaya mengemban tugas sebagai Sr. Operation &
+            Business Manager di salah satu sister company Pantarei
+            Communications yang bergerak dalam bidang Brand Activation & Event
+            Organizer yaitu Bermuda.
+            <br /><br />
+            Lalu pada tahun 2019 bergabung dengan Orba Motion perusahaan yang
+            bergerak di bidang event Organizer sebagai Event Director dan
+            dipercaya untuk mendevelop konsep acara, pelaksanaan di lapangan
+            hingga administrasi, keuangan dan sebagainya.
+            <br /><br />
+            Pada tahun 2022 sampai sekarang Ranti dipercaya untuk bergabung
+            dengan entity baru dari PINC Group yaitu Koontjie sebagai Project
+            Manager.
           </p>
         </div>
       </div>
